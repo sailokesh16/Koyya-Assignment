@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+   margin-left: 20%;
+    /* background-color: black; */
+}
+.table{
+    margin-left: 20%;
+    border: 1px solid black;
+    width: 70%;
+    height: 600px;
+  
+}
+table{
+    border: 1px solid black;
+    width: 100% ;
+    border-collapse: collapse;
+    /* background-color: chartreuse; */
+    
+}
+.tickOnlyOnce{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nameBox{
+    /* width: 100%; */
+ 
+}
+.contact_details_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
+.contact_details{
+  
+    height: 200px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+  
+}
+.address_box{
+   /* background-color: burlywood; */
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center; 
+}
+.address_details{
+    width: 71.5%;
+    height: 18%;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+/* .container {
+    display: flex;
+  }
+   */
+  .city_box{
+    /* background-color:   rgb(108, 15, 207); */
+     border: 1px solid rgb(0, 0, 0);
+     align-items: center; 
+ }
+ .city_details{
+    width: 71.5%;
+    height: 11%;
+    margin-left: 150px;
+    margin-top: -px;
+ }
+ .photo_details{
+    height: 200px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    margin-left: 910px;
+    margin-top: -175px;
+
+ }
+ .city_entry,.phonenumber,.email_entry,.pincode_entry{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+ }
+ /* .city_entry{
+height:5px;
+ } */
+.container_2{
+    height: 100px;
+    width: 149px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    margin-top: -30px;
+}
+.school_text{
+    width: 71.5%;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.container_3{
+    width: 910px;
+    margin-left: 150px;
+    margin-top:1px;
+}
+.University{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 25px
+}
+.Semester{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 25px
+   
+}
+.branchname{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 25px
+}
+.cgpa{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 25px
+}
+.container_4{
+width: 149px;
+margin-top: 25px;
+height: 190px;
+    
+}
+.c{
+  
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+.container_5{
+    width: 900px;
+    margin-top: -190px;
+    margin-left:150px;
+    height: 190px;
+}
+.textarea {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 30px;
+    border-radius: 8px; 
+    margin-right: 30px;
+}
+.textarea p {
+    text-align: left; 
+}
+.heading{
+    margin-right: 850px;
+}
